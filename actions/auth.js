@@ -1,7 +1,7 @@
 import fetch from "isomorphic-fetch";
 import cookie from "js-cookie";
 
-let baseUrl = "https://snippetmastertest.onrender.com/api/v1";
+let baseUrl = "https://expense-tracker-backend-3lkd.onrender.com/api/v1";
 
 export const signup = (user) => {
   return fetch(`${baseUrl}/signup`, {
